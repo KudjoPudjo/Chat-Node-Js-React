@@ -65,7 +65,7 @@ const controller={
         })
     },
     React(req,res){
-        res.sendFile(path.resolve('../front/build', 'index.html'));
+        res.sendFile(path.resolve('build', 'index.html'));
     }
 }
 
